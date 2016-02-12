@@ -20,6 +20,7 @@ import java.io.IOException;
  */
 public class ApplicationExtension extends Application {
 
+
     public static MovieDetails mMovieDetails;
     private MovieExtractor movieExtractor;
     public static final String TAG = ApplicationExtension.class.getSimpleName();
@@ -57,7 +58,6 @@ public class ApplicationExtension extends Application {
     public static boolean checkMovieDetails(){
         boolean availability = false;
         if(mMovieDetails != null){
-
             availability = true;
         }
         return availability;

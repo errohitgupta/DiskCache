@@ -58,7 +58,6 @@ public class ApplicationExtension extends Application {
     public static boolean checkMovieDetails(){
         boolean availability = false;
         if(mMovieDetails != null){
-
             availability = true;
         }
         return availability;

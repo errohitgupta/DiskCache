@@ -33,6 +33,7 @@ public class ApplicationExtension extends Application {
         if (!file.exists()) {
             file.mkdirs();
             Log.d("Respose",file.getPath());
+
         }
         mCustomPicasso = new Picasso.Builder(getApplicationContext())
                 .downloader(new OkHttpDownloader(file))

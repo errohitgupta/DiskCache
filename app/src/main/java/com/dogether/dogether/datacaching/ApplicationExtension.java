@@ -20,6 +20,7 @@ import java.io.IOException;
  */
 public class ApplicationExtension extends Application {
 
+
     public static MovieDetails mMovieDetails;
     private MovieExtractor movieExtractor;
     public static final String TAG = ApplicationExtension.class.getSimpleName();
